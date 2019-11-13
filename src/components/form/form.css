@@ -1,0 +1,33 @@
+.form {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin:0 10px ;
+    height: 500px;
+   display: none;
+   
+}
+
+.forms {
+    min-width: 40%;
+    margin: 10px;
+}
+
+
+.form { 
+    background-color: #49312B;
+    border: 3px solid #0c0c0c;
+    transition-property: all;
+    transition-duration: .8s
+   }
+   .form:hover {
+    background-color: rgb(223, 196, 189);
+    border-width: 6px;
+    border-color: #742d2d;
+    border-radius: 10px; 
+   }
+
+   .button{
+       margin: 20px;
+
+   }
